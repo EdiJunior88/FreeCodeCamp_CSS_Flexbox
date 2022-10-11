@@ -32,7 +32,9 @@
 <h3>Tempo Estudando o Curso</h3>
 
 <p>
-  <img src="https://wakatime.com/badge/github/EdiJunior88/FreeCodeCamp_CSS_Flexbox.svg" alt="wakatime">
+  <a href="https://wakatime.com/badge/github/EdiJunior88/FreeCodeCamp_CSS_Flexbox">
+    <img src="https://wakatime.com/badge/github/EdiJunior88/FreeCodeCamp_CSS_Flexbox.svg" alt="wakatime">
+  </a>
 </p>
 
 <hr>
