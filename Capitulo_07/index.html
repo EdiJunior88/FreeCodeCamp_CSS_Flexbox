@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Alinhar elementos usando a propriedade justify-content</title>
+</head>
+
+<body>
+  <h1>Alinhar elementos usando a propriedade justify-content</h1>
+
+  <p>Às vezes, os flex items dentro de um flex container não preenchem todo o espaço no disponível no contêiner. É comum querer dizer ao CSS como alinhar e espaçar os flex items de uma certa maneira. Felizmente, a propriedade <code>justify-content</code> tem várias opções para fazer isso. Antes, no entanto, há uma terminologia importante para entender antes de aprender essas opções.</p>
+
+  <p><a href="https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/">Para mais informações sobre as propriedades do flex-box, leia aqui</a></p>
+
+  <p>Lembre-se de que definir um flex container como uma linha coloca os flex items lado a lado da esquerda para a direita. Já um flex container como uma coluna coloca os flex items em uma pilha vertical de cima para baixo. Seja qual for a direção do flex container, a direção em que os flex items são posicionados é chamada de <strong>eixo principal</strong>. Para uma linha, o eixo principal é uma linha horizontal que passa através de cada item. E para uma coluna, o eixo principal é uma linha vertical que passa através de cada item.</p>
+
+  <p>Existem várias opções para espaçar os flex items ao longo da linha que for o eixo principal. Uma dos mais usadas é <code>justify-content: center;</code>, que alinha todos os flex items ao centro dentro do flex container. As demais opções são:</p>
+
+  <ul>
+    <li><code>flex-start</code>: alinha os itens no início do contêiner flex. Para linhas, os flex items são empurrados para a esquerda do flex container. Para colunas, os flex items são empurrados para o topo do flex container. Este é o alinhamento padrão se nenhum valor for especificado para <code>justify-content</code>.</li>
+    <li><code>flex-end</code>: alinha os itens no final do contêiner flex. Para linhas, os flex items são empurrados para a direita do flex container. Para colunas, os flex items são empurrados para a parte inferior do flex container.</li>
+    <li><code>space-between</code>: alinha os itens ao centro do eixo principal, com um espaçamento entre os itens. O primeiro item e o último são empurrados até a borda do flex container. Por exemplo, quando a direção do flex container for em linha, o primeiro item fica do lado esquerdo do contêiner e o último item fica no lado direito do contêiner. Então, o espaço restante é distribuído igualmente para os demais itens.</li>
+    <li><code>space-around</code>: similar ao <code>space-between</code> mas os primeiros e últimos itens não ficam grudados nas bordas do flex container, o espaço é distribuído em torno de todos os itens com metade do espaço em cada extremidade do flex container.</li>
+    <li><code>space-evenly</code>: distribui o espaço igualmente entre os flex items com um espaço completo em cada extremidade do flex container.</li>
+  </ul>
+
+  <p>Alguns exemplos vão ajudar você a entender os valores dessa propriedade em ação. Adicione a propriedade CSS <code>justify-content</code> ao elemento <code>#box-container</code> e dê a ela o valor de <code>center</code>.</p>
+
+  <p><strong>Bônus</strong></p>
+  <p>Use os demais valores da propriedade <code>justify-content</code> no editor de código para ver as diferenças. Mas observe que o valor <code>center</code> será o único que vai fazer você passar neste desafio.</p>
+</body>
+
+</html>
