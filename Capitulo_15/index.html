@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Usar a propriedade abreviada flex</title>
+</head>
+
+<body>
+  <h1>Usar a propriedade abreviada flex</h1>
+
+  <p>Há um atalho disponível para definir várias propriedades flex de uma só vez. As propriedades <code>flex-grow</code>, <code>flex-shrink</code> e <code>flex-basis</code> podem ser definidas em uma única linha usando a propriedade flex.</p>
+
+  <p>Por exemplo, flex: 1 0 10px; vai definir o item como <code>flex-grow</code>: 1;, <code>flex-shrink</code>: 0; e <code>flex-basis</code>: 10px;.</p>
+
+  <p>A configuração padrão dessa propriedade é flex: 0 1 auto;.</p>
+
+  <p>Adicione a propriedade CSS flex aos elementos de id <code>#box-1</code> e <code>#box-2</code>. Dê a <code>#box-1</code> os valores para que seu <code>flex-grow</code> seja <code>2</code>, <code>flex-shrink</code> seja <code>2</code> e <code>flex-basis</code> seja <code>150px</code>. Dê a <code>#box-2</code> os valores para que seu <code>flex-grow</code> seja <code>1</code>, seu <code>flex-shrink</code> seja <code>1</code> e seu <code>flex-basis</code> seja <code>150px</code>.</p>
+
+  <p>Estes valores farão com que <code>#box-1</code> cresça, preenchendo duas vezes mais o espaço adicional do que <code>#box-2</code>, quando o contêiner for maior que 300px, e reduzindo-o duas vezes mais do que <code>#box-2</code>, quando o contêiner for menor que 300px. 300px é o tamanho total quando somamos os valores de <code>flex-basis</code> de ambas as caixas.</p>
+</body>
+
+</html>
