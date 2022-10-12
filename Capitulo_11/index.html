@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Usar a propriedade flex-wrap para quebrar uma linha ou coluna</title>
+</head>
+
+<body>
+  <h1>Usar a propriedade flex-wrap para quebrar uma linha ou coluna</h1>
+
+  <p>O CSS flexbox possui uma propriedade que permite dividir um contêiner flex em várias linhas (ou colunas). Por padrão, um flex container manterá todos os flex items juntos. Por exemplo, todos os flex items estarão lado a lado na mesma linha.</p>
+
+  <p>No entanto, ao usar a propriedade <code>flex-wrap</code>, informamos ao CSS para quebrar essa linha. Isso significa que os itens adicionais serão movidos para uma nova linha ou coluna. O ponto onde essa quebra acontece depende do tamanho dos itens e do tamanho do flex conteiner.</p>
+
+  <p>O CSS oferece as seguintes opções para a direção da quebra de linha:</p>
+
+  <ul>
+    <li><code>nowrap</code>: esta é a configuração padrão e não cria novas linhas ou colunas.</li>
+    <li><code>wrap</code>: cria novas linhas de cima para baixo se os itens estiverem dispostos em linhas e da esquerda para a direita se estiverem em colunas.</li>
+    <li><code>wrap-reverse</code>: cria novas linhas de baixo para cima se os itens estiverem dispostos em linhas e da direita para a esquerda se estiverem em colunas.</li>
+  </ul>
+
+  <p>O layout atual possui itens demais para caber em apenas uma linha. Adicione a propriedade CSS <code>flex-wrap</code> com o valor de <code>wrap</code> ao elemento de id <code>#box-container</code>.</p>
+</body>
+
+</html>
